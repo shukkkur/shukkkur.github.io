@@ -22,4 +22,4 @@ This is my  personal website and it was created to practice the skills obtained 
 </p>
 
 
- <p>Check it out yourself - <a href='https://shukkkur.github.io/' target='_blank'>here</a></p>
+ <p>Check it out yourself - <a href="https://shukkkur.github.io/" target="_blank">here</a></p>
