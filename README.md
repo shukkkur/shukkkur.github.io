@@ -1,8 +1,8 @@
 <h1>Web-Resume</h1>
 
-![Stars](https://img.shields.io/github/stars/shukkkur/CodeForces.svg)
-![Watchers](https://img.shields.io/github/watchers/shukkkur/CodeForces.svg)
-![Last Commit](https://img.shields.io/github/last-commit/shukkkur/CodeForces.svg) 
+![Stars](https://img.shields.io/github/stars/shukkkur/shukkkur.github.io.svg)
+![Watchers](https://img.shields.io/github/watchers/shukkkur/shukkkur.github.io.svg)
+![Last Commit](https://img.shields.io/github/last-commit/shukkkur/shukkkur.github.io.svg) 
 
 <h3>:book: About the project</h3>
 This is my  personal website and it was created to practice the skills obtained in HTML and CSS3 so far.
