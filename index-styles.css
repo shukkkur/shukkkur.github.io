@@ -61,8 +61,8 @@ body{
 }
 
 .scroll-bar span{
-  border: 1px solid black;
-  font-size: 10px;
+  border: 3px solid black;
+  font-size: 30px;
   border-radius: 30px;
 }
 
