@@ -47,6 +47,13 @@ body{
 
 }
 
+#rcorners1 {
+  border-radius: 25px;
+  padding: 20px; 
+  width: 100%;
+}
+
+
 .user-box img{
   border-radius: 50%;
   width: 250px;
@@ -353,22 +360,18 @@ body{
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-
 img { max-width: 100%; height: auto; }
-
 @media (min-device-width:600px) {
     img[data-src-600px] {
         content: attr(data-src-600px, url);
     }
 }
-
 @media (min-device-width:800px) {
     img[data-src-800px] {
         content: attr(data-src-800px, url);
     }
 }
 html { font-size:100%; }
-
 @media (min-width: 640px) { body {font-size:1rem;} }
 @media (min-width:960px) { body {font-size:1.2rem;} }
 @media (min-width:1100px) { body {font-size:1.5rem;} } */
@@ -382,7 +385,7 @@ html { font-size:100%; }
     <div class="container text-center">
       <div class="user-box">
         <img src="images/ava-removebg-preview.png" height="280" >
-        <h1>Shakhansho Sabzaliev</h1>
+        <h1>Shakhansho Sabzaliev</h1> 
         <p>Today's Student - Tomorrow's Data Scientist</p>
       </div>
     </div>
@@ -444,43 +447,41 @@ html { font-size:100%; }
   <div class="about container" id="about">
     <div class="row">
       <div class="col-md-6 text-center">
-        <img src="images/snap2.png" class="profile-img">
+        <img src="https://raw.githubusercontent.com/shukkkur/shukkkur.github.io/main/images/snap2.png" class="img-fluid img-thumbnail" width="500">
       </div>
       <div class="col-md-6">
-        <h3>WHO AM I ? </h3>
-        <p>Hey there! My name is Shakhansho, but I prefer to call myself Shukur. I am 21 years old and a Junior student at <a href="https://ucentralasia.org" target="_blank" style="color:black;">University of Central Asia (UCA)</a>, majoring in <a href="https://ucentralasia.org/Admissions/ComputerScience/EN" target="_blank" style="color: black">computer science</a>.
+        <h3>Hey there!</h3>
+        <p id="rcorners1" class="bg-light text-black">My name is Shakhansho, but I prefer to call myself Shukur. I am 21 years old and a Junior student at <a href="https://ucentralasia.org" target="_blank" style="color:black;">University of Central Asia (UCA)</a>, majoring in <a href="https://ucentralasia.org/Admissions/ComputerScience/EN" target="_blank" style="color: black">computer science</a>.
           Due to my experiences of working in consumer services, I have developed strong communication and interpersonal skills. In addition, this summer I was lucky to start my intership at <a href=' https://artlabs.tech/'>ArtLabss</a><br/>
-          So now apart from my studies I am also working as a part-time Machine Learning Developer.
+          So now apart from my studies I am also working as a part-time Machine Learning Engineer.
           Although my hard skills are not as strong as my soft skills,
           I compensate it with my hard work, dedication, and passion for the field of computer science.<br/><i>... and excessive Googling</i></p>
         <div class="skills-bar">
-          <p>Python [pandas, matplotlib, ...]</p>
+          <p  class="text-black-50">Python</p>
           <div class="progress">
             <div class="progress-bar" style="width: 80%">
               80%
             </div>
           </div>
 
-          <p>C Language</p>
+          <p  class="text-black-50">C Language</p>
           <div class="progress">
             <div class="progress-bar" style="width: 50%">
               50%
             </div>
           </div>
-
-
-
-          <p>HTML, CSS, JavaScript</p>
+          
+          <p  class="text-black-50">HTML, CSS, JavaScript</p>
           <div class="progress">
             <div class="progress-bar" style="width: 60%">
               60%
             </div>
           </div>
 
-          <p>Googling</p>
+          <p  class="text-black-50">Googling</p>
           <div class="progress">
-            <div class="progress-bar" style="width: 90%">
-              90%
+            <div class="progress-bar" style="width: 100%">
+              100%
             </div>
           </div>
         </div>
@@ -794,4 +795,3 @@ html { font-size:100%; }
     </script>
   </body>
 </html>
-    
